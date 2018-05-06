@@ -14,6 +14,7 @@ run cd /opt && unzip v1.3.zip \
  && rm launcher.sh libcirc.do libcirc \
  && tar xvf ../libcirc.tgz \
  && rm exodus/bundles/*/usr/lib/x86_64-linux-gnu/libGL.so.1 \
- && rm exodus/bundles/*/usr/lib/x86_64-linux-gnu/libglapi.so.0 \
+       exodus/bundles/*/usr/lib/x86_64-linux-gnu/libglapi.so.0 \
+       exodus/bundles/*/usr/lib/x86_64-linux-gnu/libdrm.so.2 \
  && ln -s exodus/bin/libcirc \
  && cd .. && zip -m Libcirc-linux-x86_64-binary-v1.3.zip --symlinks -r Libcirc-linux-x86_64-binary-v1.3
