@@ -1,7 +1,9 @@
-﻿# Linux build of liberation-circuit
+# Linux build of Liberation Circuit
 
-Builds the v1.3 source in a Debian Stable docker container.
+Build [Liberation Circuit](https://linleyh.itch.io/liberation-circuit) v1.3 in a Debian Stable docker container.
 
-Then bundles the binary + dependencies using [exodus](https://github.com/intoli/exodus)
+Bundle the binary + dependencies using [exodus](https://github.com/intoli/exodus).
 
-`make Libcirc-linux-x86_64-binary-v1.3.zip` to generate a zip file that contains the binary and game content.
+Package bundled binary and game content in a zip file.
+
+`make Libcirc-linux-x86_64-binary-v1.3.zip` generates the zip file that contains the bundled binary and game content.
